@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steve Agalloco"]
   s.email       = ["steve.agalloco@gmail.com"]
-  s.homepage    = "http://rubygems.org/gems/itunes-charts"
+  s.homepage    = "https://github.com/spagalloco/itunes-charts"
   s.summary     = 'A simple rubygem to retrieve itunes charts from apple.com'
   s.description = 'A simple rubygem to retrieve itunes charts from apple.com'
 
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency('bundler', '~> 1.0')
   s.add_development_dependency('rake', '~> 0.8')
-  s.add_development_dependency('rspec', '~> 2.4.0')
+  s.add_development_dependency('rspec', '~> 2.5.0')
   s.add_development_dependency('yard', '~> 0.6')
   s.add_development_dependency('maruku', '~> 0.6')
   s.add_development_dependency('simplecov', '~> 0.3')
